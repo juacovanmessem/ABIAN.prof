@@ -18,16 +18,17 @@ function App() {
       </div>
       <section className='p-4 bg-1 text-white'>
         <div className='container-lg text-center my-2 p-4'>
-          <h1 className='krona-one-regular'>Curso de bases biológicas </h1>
-          <h5 className='krona-one-regular'>para profesionales de la salud</h5>
+          <h1 className='krona-one-regular'>CAPACITACIÓN EN BASES BIOLOGICAS DEL NEURODESARROLLO
+          </h1>
+          <h5 className='krona-one-regular'>Para Profesionales de la Salud </h5>
           <p className='lead'>
-          Si te interesa comprender cómo los sistemas biológicos influyen en el desarrollo neurológico y deseas aprender cómo la nutrición puede ser una herramienta clave para mejorar la salud de las personas con Trastornos del Espectro Autista (TEA), este curso es para ti.
+          Conoce cómo los sistemas biológicos influyen en el neurodesarrollo, desde un enfoque único y transformador, basado en evidencia científica integrada a una visión holística de la salud, con herramientas comprensibles y aplicables a los tratamientos de tus pacientes. 
           </p>
           <p className='lead'>
-          Este curso está diseñado para brindarte conocimientos prácticos y teóricos, que te permitirán marcar una diferencia real en la calidad de vida de las personas con TEA
+          Este curso está diseñado para brindarte conocimiento teórico y práctico, basado en la experiencia de los capacitadores, con resultados comprobados.
           </p>
           <p className='lead'>
-            <strong>¡Inscríbete hoy y potencia tu práctica profesional con herramientas clave para el manejo del TEA desde un enfoque integral!</strong>
+            <strong>¡Inscribete hoy y potencia tu práctica profesional con información y herramientas clave para el manejo de los TEA desde un enfoque integral!</strong>
           </p>
         </div>
         <div className='d-flex flex-wrap justify-content-center'>
@@ -36,7 +37,7 @@ function App() {
           <button className='bttn-1 mx-4 my-2'><a href="https://drive.google.com/drive/u/0/folders/1t6sLKdE-7q92FXNnLrJHHx0HVC5r0_T4">Ver mas cursos disponibles</a></button>
         </div>
       </section>
-      <div className='d-flex justify-content-center'>
+      <div>
         <Programas/>
       </div>
       <div className='container p-4 mt-4'>

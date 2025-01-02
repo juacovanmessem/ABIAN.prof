@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Videos from "./Videos";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -59,6 +60,9 @@ const Slider = () => {
           );
         })}
       </Carousel>
+      <div className="text-center mt-2">
+        <Videos/>
+      </div>
     </div>
   );
 };
